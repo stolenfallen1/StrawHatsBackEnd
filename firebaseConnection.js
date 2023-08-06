@@ -1,7 +1,5 @@
 // Description: This file contains the firebase configuration and initialization
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
-import { getStorage } from "firebase/storage";
 import dotenv from "dotenv";
 
 dotenv.config(); // Load environment variables from .env file
