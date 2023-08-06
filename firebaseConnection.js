@@ -16,7 +16,7 @@ const firebaseConfig = {
   appId: process.env.FIREBASE_APP_ID,
 };
 
+// console.log(firebaseConfig);
+
 // Initialize Firebase then export it to be used in other files
 export const firebaseApp = initializeApp(firebaseConfig);
-export const storage = getStorage(firebaseApp);
-export const db = getFirestore(firebaseApp);
